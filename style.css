@@ -11,7 +11,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #background-color: #3d9970; color: white;;
+    background-color: #background-color: #333333; color: white;;
     color: white;
 }
 
@@ -33,7 +33,7 @@ section {
 }
 
 h2 {
-    border-bottom: 2px solid #3d9970;
+    border-bottom: 2px solid #333333;
     padding-bottom: 5px;
     color: #007acc;
 }
