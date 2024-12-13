@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,50 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dan Bishop Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #333333;
-            color: #333;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        header p {
-            margin: 5px 0;
-        }
-        section {
-            margin-bottom: 20px;
-        }
-        h2 {
-            border-bottom: 2px solid #333333;
-            padding-bottom: 5px;
-        }
-        ul {
-            list-style: square;
-            padding-left: 20px;
-        }
-        .contact {
-            text-align: center;
-            font-size: 0.9em;
-        }
-        .contact a {
-            color: #007acc;
-            text-decoration: none;
-        }
-        .contact a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="dark">
+    <nav>
+        <a href="#profile">Profile</a>
+        <a href="#skills">Skills</a>
+        <a href="#language-strengths">Language Strengths</a>
+        <a href="#education">Education</a>
+        <a href="#work-experience">Work Experience</a>
+        <a href="mailto:daniel.alden.bishop@gmail.com">Contact</a>
+    </nav>
+
     <header>
         <h1>Dan Bishop</h1>
         <p>Junior Data Analyst | SQL | Tableau | Python | R | BigQuery</p>
@@ -61,70 +29,83 @@
         </p>
     </header>
 
-    <section>
-        <h2>Profile</h2>
-        <p>Certified Data Analyst with a strong foundation in IT, digital transformation, and Salesforce administration. Proficient in SQL, Tableau, Python, R, and Google BigQuery with hands-on experience in data migration and database administration. Recently completed the Coursera/Google Data Analytics Professional Certificate, further strengthening skills in data analysis, data-driven decision-making, and clean data practices. Proficient in leveraging data insights to improve operations and streamline workflows. Strong analytical, organizational, and communication skills to drive success in data-centric roles.</p>
-    </section>
+    <main>
+        <section id="profile">
+            <h2>Profile</h2>
+            <p>Certified Data Analyst with a strong foundation in IT, digital transformation, and Salesforce administration. Proficient in SQL, Tableau, Python, R, and Google BigQuery with hands-on experience in data migration and database administration. Recently completed the Coursera/Google Data Analytics Professional Certificate, further strengthening skills in data analysis, data-driven decision-making, and clean data practices. Proficient in leveraging data insights to improve operations and streamline workflows. Strong analytical, organizational, and communication skills to drive success in data-centric roles.</p>
+        </section>
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Data Migration & Integration (ETL)</li>
-            <li>Database Management & Optimization</li>
-            <li>Salesforce Administration</li>
-            <li>Data Analytics & Visualization (SQL, Tableau, Python, R, BigQuery)</li>
-            <li>Web Development (HTML, CSS, JavaScript)</li>
-            <li>Digital Transformation & Software Implementation</li>
-            <li>Leadership & IT Support</li>
-        </ul>
-    </section>
-    
-    <section>
-        <h2>Language Strengths</h2>
-        <div class="bar-chart">
-            <div class="bar" style="width: 70%; background: linear-gradient(to right, #d73027 20%, #fee08b 50%, #1a9850 100%);" data-text="SQL (70%)"></div>
-            <div class="bar" style="width: 60%; background: linear-gradient(to right, #d73027 30%, #fee08b 60%, #1a9850 100%);" data-text="HTML/CSS/JavaScript (60%)"></div>
-            <div class="bar" style="width: 50%; background: linear-gradient(to right, #d73027 40%, #fee08b 70%, #1a9850 100%);" data-text="R (50%)"></div>
-            <div class="bar" style="width: 45%; background: linear-gradient(to right, #d73027 50%, #fee08b 75%, #1a9850 100%);" data-text="Tableau (45%)"></div>
-            <div class="bar" style="width: 40%; background: linear-gradient(to right, #d73027 60%, #fee08b 80%, #1a9850 100%);" data-text="Python (40%)"></div>
-        </div>
-    </section>
-    
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li>Data Analytics Professional Certification - Coursera & Google (2023)</li>
-            <li>Salesforce Administrator Certification - Salesforce (2021)</li>
-            <li>Web Development Certification (JavaScript, HTML, CSS) - Mimo (2021)</li>
-            <li>High School Diploma - McQueen High School, Reno, NV (2003)</li>
-        </ul>
-    </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Data Migration & Integration (ETL)</li>
+                <li>Database Management & Optimization</li>
+                <li>Salesforce Administration</li>
+                <li>Data Analytics & Visualization (SQL, Tableau, Python, R, BigQuery)</li>
+                <li>Web Development (HTML, CSS, JavaScript)</li>
+                <li>Digital Transformation & Software Implementation</li>
+                <li>Leadership & IT Support</li>
+            </ul>
+        </section>
+        
+        <section id="language-strengths">
+            <h2>Language Strengths</h2>
+            <div class="bar-chart">
+                <div class="bar" style="--bar-width: 70%; background: linear-gradient(to right, #d73027 10%, #fee08b 20%, #1a9850 100%);" data-text="SQL (70%)"></div>
+                <div class="bar" style="--bar-width: 60%; background: linear-gradient(to right, #d73027 20%, #fee08b 40%, #1a9850 100%);" data-text="HTML/CSS/JavaScript (60%)"></div>
+                <div class="bar" style="--bar-width: 50%; background: linear-gradient(to right, #d73027 30%, #fee08b 70%, #1a9850 100%);" data-text="R (50%)"></div>
+                <div class="bar" style="--bar-width: 45%; background: linear-gradient(to right, #d73027 50%, #fee08b 75%, #1a9850 100%);" data-text="Tableau (45%)"></div>
+                <div class="bar" style="--bar-width: 40%; background: linear-gradient(to right, #d73027 60%, #fee08b 80%, #1a9850 100%);" data-text="Python (40%)"></div>
+            </div>
+        </section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Data Analytics Professional Certification - Coursera & Google (2023)</li>
+                <li>Salesforce Administrator Certification - Salesforce (2021)</li>
+                <li>Web Development Certification (JavaScript, HTML, CSS) - Mimo (2021)</li>
+                <li>High School Diploma - McQueen High School, Reno, NV (2003)</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Work Experience</h2>
-        <h3>Chief Information Officer - Dancing Goat Gardens (August 2022 - February 2024)</h3>
-        <ul>
-            <li>Established and enforced business standards for clean data practices and data integrity.</li>
-            <li>Developed executive dashboards using Tableau and Google Sheets to track key business metrics.</li>
-            <li>Led data cleaning processes, ensuring high-quality datasets for accurate decision-making.</li>
-            <li>Spearheaded the implementation of an ERP and Point of Sale (POS) system, migrating all existing data into the new platforms.</li>
-            <li>Drove data-focused initiatives, optimizing operations through data analysis and reporting.</li>
-        </ul>
+        <section id="work-experience">
+            <h2>Work Experience</h2>
+            <h3>Chief Information Officer - Dancing Goat Gardens (August 2022 - February 2024)</h3>
+            <ul>
+                <li>Established and enforced business standards for clean data practices and data integrity.</li>
+                <li>Developed executive dashboards using Tableau and Google Sheets to track key business metrics.</li>
+                <li>Led data cleaning processes, ensuring high-quality datasets for accurate decision-making.</li>
+                <li>Spearheaded the implementation of an ERP and Point of Sale (POS) system, migrating all existing data into the new platforms.</li>
+                <li>Drove data-focused initiatives, optimizing operations through data analysis and reporting.</li>
+            </ul>
 
-        <h3>Training Coordinator - Doyles Sheehan (April 2019 - July 2021)</h3>
-        <ul>
-            <li>Structured SQL queries to support business functions, particularly in accounts payable and accounts receivable.</li>
-            <li>Collaborated with leadership to cleanse the AS400 DB2 database, addressing a long history of inconsistent data standards and improving data integrity.</li>
-            <li>Led a special project to digitize monthly A/R reporting for an external accounting firm, streamlining processes and increasing efficiency.</li>
-            <li>Trained staff on database management and proper data entry practices, improving overall business data quality.</li>
-        </ul>
+            <h3>Training Coordinator - Doyles Sheehan (April 2019 - July 2021)</h3>
+            <ul>
+                <li>Structured SQL queries to support business functions, particularly in accounts payable and accounts receivable.</li>
+                <li>Collaborated with leadership to cleanse the AS400 DB2 database, addressing a long history of inconsistent data standards and improving data integrity.</li>
+                <li>Led a special project to digitize monthly A/R reporting for an external accounting firm, streamlining processes and increasing efficiency.</li>
+                <li>Trained staff on database management and proper data entry practices, improving overall business data quality.</li>
+            </ul>
 
-        <h3>Consultant - Cognizant (ATG) (January 2018 - April 2019)</h3>
-        <ul>
-            <li>Specialized in data migrations as part of the Salesforce Data Migration Team, ensuring smooth transitions between systems.</li>
-            <li>Worked in an agile environment to deploy record and metadata for Salesforce environments.</li>
-            <li>Led data cleaning projects, leveraging complex SQL queries and optimizing them for ETL processes.</li>
-        </ul>
-    </section>
+            <h3>Consultant - Cognizant (ATG) (January 2018 - April 2019)</h3>
+            <ul>
+                <li>Specialized in data migrations as part of the Salesforce Data Migration Team, ensuring smooth transitions between systems.</li>
+                <li>Worked in an agile environment to deploy record and metadata for Salesforce environments.</li>
+                <li>Led data cleaning projects, leveraging complex SQL queries and optimizing them for ETL processes.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dan Bishop. All rights reserved.</p>
+        <button id="theme-toggle">Toggle Light Mode</button>
+    </footer>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', () => {
+            document.body.classList.toggle('dark');
+        });
+    </script>
 </body>
 </html>
