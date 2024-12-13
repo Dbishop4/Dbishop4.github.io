@@ -42,3 +42,19 @@ ul {
     list-style-type: square;
     padding-left: 20px;
 }
+
+.bar {
+    background-color: #333333; /* Charcoal black for the bars */
+    color: white; /* White text for readability */
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: width 0.5s ease, background-color 0.3s ease;
+}
+
+.bar:hover {
+    background-color: #555555; /* Lighter black for hover effect */
+}
