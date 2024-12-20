@@ -40,20 +40,48 @@ nav {
     top: 0;
     z-index: 10;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
-    transition: color 0.3s;
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Arrange items in a row */
+    gap: 15px; /* Space between items */
 }
 
-nav a:hover {
-    color: #007BFF;
+nav ul li {
+    display: inline; /* Inline elements for horizontal alignment */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007BFF; /* Highlight color on hover */
+}
+
+/* Download Resume Button */
+.resume-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: #0056b3;
+    color: #ddd;
 }
 
 /* Section Styling */
