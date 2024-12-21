@@ -34,6 +34,8 @@ body {
 }
 
 .hero .resume-button {
+    display: inline-block; /* Ensure it's treated as a block element */
+    margin: 0 auto; /* Center the button */
     background-color: white;
     color: #007BFF;
     padding: 10px 20px;
@@ -41,6 +43,7 @@ body {
     font-size: 1.2rem;
     text-decoration: none;
     transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center; /* Ensure text is centered */
 }
 
 .hero .resume-button:hover {
@@ -97,11 +100,12 @@ nav {
 
 .skills-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Auto-adjusts based on screen size */
-    gap: 15px;
-    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between icons */
+    justify-items: center; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    padding: 20px; /* Add padding to the section */
 }
-
 .skill-badge {
     background: #f4f4f4;
     border-radius: 10px;
@@ -116,9 +120,10 @@ nav {
 }
 
 .skill-badge img {
-    width: 40px; /* Adjusted size for clarity */
-    height: 40px;
+    width: 100px; /* Increase the icon size */
+    height: 100px; /* Keep the dimensions proportional */
     margin-bottom: 10px;
+    object-fit: contain; /* Ensure the icons fit without distortion */
 }
 
 .skill-badge p {
