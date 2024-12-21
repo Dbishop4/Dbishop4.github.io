@@ -178,6 +178,22 @@ nav {
         width: var(--bar-width); /* Expand to the final width */
     }
 }
+#attribution {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+#attribution a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#attribution a:hover {
+    text-decoration: underline;
+}
 
 /* Footer */
 footer {
