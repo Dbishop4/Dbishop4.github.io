@@ -1,115 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dan Bishop's Portfolio</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Dan Bishop Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="dark">
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Dan Bishop</h1>
+            <p>Data Analyst | Salesforce Developer | IT Innovator</p>
+            <a href="resume.pdf" class="resume-button">Download My Resume</a>
+        </div>
+    </section>
+
+    <!-- Navbar -->
     <nav>
-        <ul>
+        <ul class="nav-links">
             <li><a href="#profile">Profile</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#language-strengths">Language Strengths</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#work-experience">Work Experience</a></li>
-            <li><a href="mailto:daniel.alden.bishop@gmail.com">Contact</a></li>
-            <li><a href="https://github.com/Dbishop4/Dbishop4.github.io/blob/main/dbishop_2024.pdf" class="resume-button" download>Download Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <header>
-        <h1>Dan Bishop</h1>
-        <p>Junior Data Analyst | SQL | Tableau | Python | R | BigQuery</p>
-        <p class="contact">
-            <a href="mailto:daniel.alden.bishop@gmail.com">daniel.alden.bishop@gmail.com</a> |
-            <a href="https://public.tableau.com/app/profile/dan.bishop4562">Tableau Portfolio</a> |
-            <a href="https://www.linkedin.com/in/dbishop406/">LinkedIn</a> |
-
-            Missoula, Montana
+    <!-- Profile Section -->
+    <section id="profile">
+        <h1>Profile</h1>
+        <p>
+            I am a Certified Data Analyst with over 10 years of experience in data-driven technologies and IT. My greatest strength lies in transforming complex ideas into actionable insights, optimizing processes, and bringing concepts to life through innovative digital solutions. I excel at cultivating professional relationships built on trust and collaboration, empowering teams to make data-informed decisions. With a passion for continuous learning and a commitment to loyalty and honesty, I am dedicated to driving meaningful impact in every project I undertake.
         </p>
-    </header>
+    </section>
 
-    <main>
-        <section id="profile">
-            <h2>Profile</h2>
-            <p>I am a Certified Data Analyst with over 10 years of experience in data-driven technologies and IT. My greatest strength lies in transforming complex ideas into actionable insights, optimizing processes, and bringing concepts to life through innovative digital solutions. I excel at cultivating professional relationships built on trust and collaboration, empowering teams to make data-informed decisions. With a passion for continuous learning and a commitment to loyalty and honesty, I am dedicated to driving meaningful impact in every project I undertake.</p>
-        </section>
-
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Data Migration & Integration (ETL)</li>
-                <li>Database Management & Optimization</li>
-                <li>Salesforce Administration</li>
-                <li>Data Analytics & Visualization (SQL, Tableau, Python, R, BigQuery)</li>
-                <li>Web Development (HTML, CSS, JavaScript)</li>
-                <li>Digital Transformation & Software Implementation</li>
-                <li>Leadership & IT Support</li>
-            </ul>
-        </section>
-        
-        <section id="language-strengths">
-            <h2>Language Strengths</h2>
-            <div class="bar-chart">
-                <div class="bar" style="--bar-width: 70%; background: linear-gradient(to right, #d73027 10%, #fee08b 20%, #1a9850 100%);" data-text="SQL (70%)"></div>
-                <div class="bar" style="--bar-width: 60%; background: linear-gradient(to right, #d73027 20%, #fee08b 40%, #1a9850 100%);" data-text="HTML/CSS/JavaScript (60%)"></div>
-                <div class="bar" style="--bar-width: 50%; background: linear-gradient(to right, #d73027 30%, #fee08b 70%, #1a9850 100%);" data-text="R (50%)"></div>
-                <div class="bar" style="--bar-width: 45%; background: linear-gradient(to right, #d73027 50%, #fee08b 75%, #1a9850 100%);" data-text="Tableau (45%)"></div>
-                <div class="bar" style="--bar-width: 40%; background: linear-gradient(to right, #d73027 60%, #fee08b 80%, #1a9850 100%);" data-text="Python (40%)"></div>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill-badge">
+                <img src="icons/sql.png" alt="SQL Icon">
+                <p>SQL</p>
             </div>
-        </section>
-        
-        <section id="education">
-            <h2>Education</h2>
-            <ul>
-                <li>Data Analytics Professional Certification - Coursera & Google (2023)</li>
-                <li>Salesforce Administrator Certification - Salesforce (2021)</li>
-                <li>Web Development Certification (JavaScript, HTML, CSS) - Mimo (2021)</li>
-                <li>High School Diploma - McQueen High School, Reno, NV (2003)</li>
-            </ul>
-        </section>
+            <div class="skill-badge">
+                <img src="icons/python.png" alt="Python Icon">
+                <p>Python</p>
+            </div>
+            <div class="skill-badge">
+                <img src="icons/data.png" alt="Tableau Icon">
+                <p>Tableau</p>
+            </div>
+            <div class="skill-badge">
+                <img src="icons/salesforce.png" alt="Salesforce Icon">
+                <p>Salesforce</p>
+            </div>
+            <div class="skill-badge">
+                <img src="icons/coding.png" alt="HTML/CSS Icon">
+                <p>HTML/CSS</p>
+            </div>
+            <div class="skill-badge">
+                <img src="icons/etl.png" alt="Digital Transformation Icon">
+                <p>Digital Transformation & Software Impementation</p>
+            </div>
+            <div class="skill-badge">
+                <img src="icons/etl.png" alt="Leadership and Support Icon">
+                <p>Leadership & IT Support</p>
+            </div>
+        </div>
+    </section>
 
-        <section id="work-experience">
-            <h2>Work Experience</h2>
-            <h3>Chief Information Officer - Dancing Goat Gardens (August 2022 - February 2024)</h3>
-            <ul>
-                <li>Established and enforced business standards for clean data practices and data integrity.</li>
-                <li>Developed executive dashboards using Tableau and Google Sheets to track key business metrics.</li>
-                <li>Led data cleaning processes, ensuring high-quality datasets for accurate decision-making.</li>
-                <li>Spearheaded the implementation of an ERP and Point of Sale (POS) system, migrating all existing data into the new platforms.</li>
-                <li>Drove data-focused initiatives, optimizing operations through data analysis and reporting.</li>
-            </ul>
+    <!-- Language Strengths Section -->
+    <section id="language-strengths">
+        <h2>Language Strengths</h2>
+        <div class="bar-chart">
+            <div class="bar" style="--bar-width: 70%; background-color: #007BFF;" data-text="SQL (70%)"></div>
+            <div class="bar" style="--bar-width: 60%; background-color: #FFC107;" data-text="HTML/CSS/JavaScript (60%)"></div>
+            <div class="bar" style="--bar-width: 50%; background-color: #28A745;" data-text="R (50%)"></div>
+            <div class="bar" style="--bar-width: 45%; background-color: #17A2B8;" data-text="Tableau (45%)"></div>
+            <div class="bar" style="--bar-width: 40%; background-color: #DC3545;" data-text="Python (40%)"></div>
+        </div>
+    </section>
 
-            <h3>Training Coordinator - Doyles Sheehan (April 2019 - July 2021)</h3>
-            <ul>
-                <li>Structured SQL queries to support business functions, particularly in accounts payable and accounts receivable.</li>
-                <li>Collaborated with leadership to cleanse the AS400 DB2 database, addressing a long history of inconsistent data standards and improving data integrity.</li>
-                <li>Led a special project to digitize monthly A/R reporting for an external accounting firm, streamlining processes and increasing efficiency.</li>
-                <li>Trained staff on database management and proper data entry practices, improving overall business data quality.</li>
-            </ul>
+    <!-- Education Section -->
+    <section id="education">
+        <h1>Education</h1>
+        <ul>
+            <li>Google Data Analytics Professional Certificate</li>
+            <li>Salesforce Administration Certification</li>
+        </ul>
+    </section>
 
-            <h3>Consultant - Cognizant (ATG) (January 2018 - April 2019)</h3>
-            <ul>
-                <li>Specialized in data migrations as part of the Salesforce Data Migration Team, ensuring smooth transitions between systems.</li>
-                <li>Worked in an agile environment to deploy record and metadata for Salesforce environments.</li>
-                <li>Led data cleaning projects, leveraging complex SQL queries and optimizing them for ETL processes.</li>
-            </ul>
-        </section>
-    </main>
+    <!-- Work Experience Section -->
+    <section id="work-experience">
+        <h1>Work Experience</h1>
+        <p>Over a decade of experience in database management, IT infrastructure, and Salesforce development.</p>
+    </section>
 
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>Email: <a href="mailto:daniel.alden.bishop@gmail.com">daniel.alden.bishop@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn Profile</a></p>
+        <p>Tableau Portfolio: <a href="https://public.tableau.com/profile/your-portfolio" target="_blank">Your Tableau Work</a></p>
+    </section>
+
+    <!-- Footer -->
     <footer>
         <p>&copy; 2024 Dan Bishop. All rights reserved.</p>
-        <button id="theme-toggle">Toggle Light Mode</button>
+        <div class="social-icons">
+            <a href="https://github.com/Dbishop4" target="_blank"><img src="icons/github-icon.png" alt="GitHub"></a>
+            <a href="https://linkedin.com/in/your-profile" target="_blank"><img src="icons/linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+        <button id="theme-toggle">Toggle Theme</button>
     </footer>
-
-    <script>
-        document.getElementById('theme-toggle').addEventListener('click', () => {
-            document.body.classList.toggle('dark');
-        });
-    </script>
 </body>
 </html>
