@@ -7,96 +7,232 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Dan Bishop</h1>
-            <p>Data Analyst | Salesforce Developer | IT Innovator</p>
-            <a href="dbishop_2024.pdf" class="resume-button">Download My Resume</a>
-        </div>
-    </section>
+<!-- Hero Section -->
+<div class="hero">
+    <h1>Dan Bishop</h1>
+    <p>Junior Data Analyst | SQL | Python | Salesforce</p>
+  
+    <!-- Skill Icons -->
+    <div class="skills-container">
+      <div class="skill-box" style="animation-delay: 0.2s;">
+        <img src="assets/icons/sql.png" alt="SQL Icon">
+        <p>SQL</p>
+      </div>
+      <div class="skill-box" style="animation-delay: 0.4s;">
+        <img src="assets/icons/python.png" alt="Python Icon">
+        <p>Python</p>
+      </div>
+      <div class="skill-box" style="animation-delay: 0.6s;">
+        <img src="assets/icons/data.png" alt="Tableau Icon">
+        <p>Tableau</p>
+      </div>
+      <div class="skill-box" style="animation-delay: 0.8s;">
+        <img src="assets/icons/salesforce.png" alt="Salesforce Icon">
+        <p>Salesforce</p>
+      </div>
+      <div class="skill-box" style="animation-delay: 1s;">
+        <img src="assets/icons/coding.png" alt="HTML & CSS Icon">
+        <p>HTML & CSS</p>
+      </div>
+      <div class="skill-box" style="animation-delay: 1.2s;">
+        <img src="assets/icons/etl.png" alt="ETL Icon">
+        <p>Data Migration</p>
+      </div>
+      <div class="skill-box" style="animation-delay: 1.4s;">
+        <img src="assets/icons/manager.png" alt="Leadership Icon">
+        <p>Leadership</p>
+      </div>
+      <div class="skill-box" style="animation-delay: 1.6s;">
+        <img src="assets/icons/github.png" alt="GitHub Icon">
+        <p>GitHub</p>
+      </div>
+    </div>
+  
+    <a href="dbishop_2024.pdf" class="resume-button">Download Resume</a>
 
-    <!-- Navbar -->
-    <nav>
-        <ul class="nav-links">
-            <li><a href="#profile">Profile</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#language-strengths">Language Strengths</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#work-experience">Work Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="scroll-indicator">
+        <span></span>
+    </div>
+  </div>
 
     <!-- Profile Section -->
     <section id="profile">
         <h1>Profile</h1>
         <p>
-            I am a Certified Data Analyst with over 10 years of experience in data-driven technologies and IT. My greatest strength lies in transforming complex ideas into actionable insights, optimizing processes, and bringing concepts to life through innovative digital solutions. I excel at cultivating professional relationships built on trust and collaboration, empowering teams to make data-informed decisions. With a passion for continuous learning and a commitment to loyalty and honesty, I am dedicated to driving meaningful impact in every project I undertake.
-        </p>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <h2>Skills</h2>
-        <div class="skills-list">
-            <div class="skill-badge">
-                <img src="assets/icons/sql.png" alt="SQL Icon">
-                <p>SQL</p>
-            </div>
-            <div class="skill-badge">
-                <img src="assets/icons/python.png" alt="Python Icon">
-                <p>Python</p>
-            </div>
-            <div class="skill-badge">
-                <img src="assets/icons/data.png" alt="Tableau Icon">
-                <p>Tableau</p>
-            </div>
-            <div class="skill-badge">
-                <img src="assets/icons/salesforce.png" alt="Salesforce Icon">
-                <p>Salesforce</p>
-            </div>
-            <div class="skill-badge">
-                <img src="assets/icons/coding.png" alt="HTML/CSS Icon">
-                <p>HTML/CSS</p>
-            </div>
-            <div class="skill-badge">
-                <img src="assets/icons/etl.png" alt="Digital Transformation Icon">
-                <p>Data Migration</p>
-            </div>
-            <div class="skill-badge">
-                <img src="assets/icons/manager.png" alt="Leadership and Support Icon">
-                <p>Leadership & IT Support</p>
-            </div>
-        </div>
+            I’m Dan Bishop, a Certified Data Analyst with over 10 years of experience in data-driven technologies and IT. My work is rooted in simplifying complexity — breaking down massive datasets and turning them into meaningful, actionable insights that drive decisions. Whether it’s building SQL queries, fine-tuning processes, or guiding teams through new tech implementations, I bring a steady, solution-focused approach to the table.
+            <br>
+            <br>
+            I thrive in environments where innovation and growth meet a bit of nerdiness. I enjoy the problem-solving side of analytics — getting into the weeds of a challenge and coming out with something that’s not only functional but impactful. Collaboration is where I shine, empowering teams with tools and insights that allow them to make informed decisions and work smarter, not harder.
+            Continuous learning isn’t just a checkbox for me; it’s the mindset that drives how I approach my work and career. Every new tool, language, or technique I take on is an investment in doing better tomorrow than I did today.
+            <br>
+            <br>
+            On a personal note, I bring the same curiosity and determination to life outside work. Whether it’s exploring new tech, taking my French Bulldogs on adventures, or tackling creative projects, I like to keep things interesting. I’m all about balancing focus with humor — because data might not always be exciting, but the way we work with it can be.
+            <br>
+            <br>
+            <p style="text-align: center;">Welcome to my portfolio. Let’s turn data into action.</p>
+                </p>
     </section>
 
     <!-- Language Strengths Section -->
     <section id="language-strengths">
         <h2>Language Strengths</h2>
         <div class="bar-chart">
-            <div class="bar" style="--bar-width: 70%; background-color: #007BFF;" data-text="SQL (70%)"></div>
-            <div class="bar" style="--bar-width: 60%; background-color: #FFC107;" data-text="HTML/CSS/JavaScript (60%)"></div>
-            <div class="bar" style="--bar-width: 50%; background-color: #28A745;" data-text="R (50%)"></div>
-            <div class="bar" style="--bar-width: 45%; background-color: #17A2B8;" data-text="Tableau (45%)"></div>
-            <div class="bar" style="--bar-width: 40%; background-color: #DC3545;" data-text="Python (40%)"></div>
+            <div class="bar" data-text="SQL (70%)" style="--bar-width: 70%; --bar-color: #28a745;"></div>
+            <div class="bar" data-text="HTML/CSS/JavaScript (60%)" style="--bar-width: 60%; --bar-color: #28A745;"></div>
+            <div class="bar" data-text="R (50%)" style="--bar-width: 50%; --bar-color: hsl(69,95%,44%);"></div>
+            <div class="bar" data-text="Tableau (45%)" style="--bar-width: 45%; --bar-color: #b1db29;"></div>
+            <div class="bar" data-text="Python (40%)" style="--bar-width: 40%; --bar-color: #dcb035;"></div>
         </div>
     </section>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const section = document.querySelector('#language-strengths');
+            const bars = document.querySelectorAll('.bar');
+            const sectionTop = section.getBoundingClientRect().top;
+            const sectionVisible = window.innerHeight / 1.5; // Adjust threshold as needed
+        
+            if (sectionTop < sectionVisible) {
+                bars.forEach(bar => bar.classList.add('active'));
+            }
+        });
+    </script>
 
     <!-- Education Section -->
     <section id="education">
         <h1>Education</h1>
         <ul>
-            <li>Google Data Analytics Professional Certificate</li>
-            <li>Salesforce Administration Certification</li>
+            <li>Google Data Analytics Professional Certificate(2024)</li>
+            <li>Salesforce Administration Certification (2021)</li>
+            <li>HTML/CSS/Java Script Certification (2021)</li>
+            <li>High School Diploma (2003)</li>
         </ul>
     </section>
 
     <!-- Work Experience Section -->
     <section id="work-experience">
         <h1>Work Experience</h1>
-        <p>Over a decade of experience in database management, IT infrastructure, and Salesforce development.</p>
+    
+        <!-- Dancing Goat Gardens -->
+        <div class="job">
+            <h2>Chief Information Officer</h2>
+            <h3>Dancing Goat Gardens | December 2022 – March 2024</h3>
+            <ul>
+                <li>Streamlined IT infrastructure to improve operational efficiency, including data management and analytics processes.</li>
+                <li>Implemented new ERP & CRM, optimizing retail and cultivation ordering. Cutting costs by over 40%</li>
+                <li>Managed cross-functional teams to develop innovative digital solutions, driving company growth.</li>
+            </ul>
+        </div>
+
+        <!-- Consultant -->
+        <div class="job">
+            <h2>Salesforce Consultant</h2>
+            <h3>Neocol | Jan 2022 – April 2022</h3>
+            <h3>Emelar Consulting Goup | Sep 2021 – Dec 2021</h3>
+            <ul>
+                <li>General Salesforce, and Salesforce CPQ Consultant.</li>
+                <li>Implemented Salesforce CRM, optimizing customer relationship workflows and data integration.</li>
+                <li>Software implementation support for cloud and platform based CPQ and billing systems</li>
+            </ul>
+        </div>
+
+        <!-- Doyle's Sheehan (Training Coordinator) -->
+        <div class="job">
+            <h2>Training Coordinator</h2>
+            <h3>Doyle's Sheehan | April 2019 – July 2021</h3>
+            <ul>
+                <li>Developed and delivered comprehensive training programs for new hires and existing staff, focusing on process efficiency and data integrity.</li>
+                <li>Optimized SQL databases and automated key reporting tasks, saving 20+ hours per week for management teams.</li>
+                <li>Collaborated with IT to enhance internal tools for improved data accessibility and performance tracking.</li>
+            </ul>
+        </div>
+    
+        <!-- ATG (Now Cognizant) -->
+        <div class="job">
+            <h2>Implementation Specialist</h2>
+            <h3>ATG (Now Cognizant) | Jan 2018 – April 2019</h3>
+            <ul>
+                <li>Collaborated with clients to implement Configure Price Quote (CPQ) software, ensuring seamless integration with Salesforce.</li>
+                <li>Provided data migration support and customized CRM configurations tailored to unique business needs.</li>
+                <li>Conducted user training sessions to enhance adoption rates of new systems and processes.</li>
+            </ul>
+        </div>
+    
+        <!-- Doyle's Sheehan -->
+        <div class="job">
+            <h2>Database Administrator</h2>
+            <h3>Doyle's Sheehan | May 2013 – January 2018</h3>
+            <ul>
+                <li>Maintained and optimized SQL databases, ensuring seamless data integrity and accessibility across departments.</li>
+                <li>Developed automated reporting solutions, reducing manual efforts by 30% and improving data accuracy.</li>
+                <li>Collaborated with IT and business teams to address data-related challenges and support decision-making processes.</li>
+            </ul>
+        </div>
+    
+        <!-- Verizon -->
+        <div class="job">
+            <h2>Customer Solutions Expert</h2>
+            <h3>Verizon Wireless | January 2011 – May 2013</h3>
+            <ul>
+                <li>Specialized in advanced device troubleshooting, account management, and providing tailored solutions for customer needs.</li>
+                <li>Maintained an in-depth understanding of mobile technology to educate and assist customers effectively.</li>
+                <li>Recognized as a top performer for resolving complex issues efficiently and maintaining high customer satisfaction scores.</li>
+            </ul>
+        </div>
+    
+        <!-- Apple -->
+        <div class="job">
+            <h2>Solution Consultant</h2>
+            <h3>Apple Inc. | Febuary 2008 – Febuary 2010</h3>
+            <ul>
+                <li>Provided personalized technical support and troubleshooting for Apple devices and software, ensuring customer satisfaction and retention.</li>
+                <li>Delivered one-on-one and group training sessions to customers on Apple hardware, iOS, and macOS platforms.</li>
+                <li>Collaborated with cross-functional teams to implement customer-focused solutions and improve technical workflows.</li>
+            </ul>
+        </div>
     </section>
+
+    <!-- Case Study Section -->
+<section id="case-study">
+    <h1>Case Studies</h1>
+
+    <!-- Cyclistic Bike-Share Analysis -->
+    <div class="case-study">
+        <h2>Cyclistic Bike-Share Analysis</h2>
+        <p>
+            This project analyzed Cyclistic’s bike-share data to uncover user behavior trends and create a marketing strategy to convert casual riders into annual members. 
+            Tackling a dataset of over 5 million rows locally, I utilized R and its powerful libraries to clean, analyze, and visualize key insights.
+        </p>
+        <ul>
+            <li><strong>Skills Highlighted:</strong> Data Cleaning, Visualization, Statistical Analysis</li>
+            <li><strong>Key Insights:</strong>
+                <ul>
+                    <li>Casual riders favor weekends for longer, leisure-oriented rides.</li>
+                    <li>Members consistently ride on weekdays, aligning with commuter patterns.</li>
+                    <li>Electric bikes are significantly preferred by casual riders, presenting a targeted marketing opportunity.</li>
+                </ul>
+            </li>
+            <li><strong>Tools Used:</strong> R, ggplot2, data.table, tidyverse</li>
+            <li><strong>Results and Recomendations:</strong>
+            <ul>
+                <li>
+                    Offer a weekend unlimited membership: Casual riders show a strong preference for weekend activity. Introducing a targeted weekend membership plan could incentivize casual users to commit to the service and increase retention.
+                </li>
+                <li>
+                    Explore referral credits for existing members: Incentivizing current members with credits or discounts for successful referrals could help grow the customer base and promote member loyalty.
+                </li>
+                <li>
+                    Focus on electric bike promotions: Highlighting electric bike usage in campaigns aimed at casual riders could capitalize on their existing preference for these rides and encourage further engagement.
+                </li>
+            </ul>
+            </li>
+        </ul>
+        <p>
+            <a href="https://www.kaggle.com/datasets/danstandefer/cyclistic-23-24-data" target="_blank" class="case-study-link">View Full Case Study on Kaggle</a>
+        </p>
+    </div>
+
+</section>
 
     <!-- Contact Section -->
     <section id="contact">
@@ -115,8 +251,6 @@
             <a href="https://github.com/Dbishop4" target="_blank"><img src="assets/icons/github.png" alt="GitHub"></a>
             <a href="https://linkedin.com/in/dbishop406" target="_blank"><img src="assets/icons/linkedin.png" alt="LinkedIn"></a>
         </div>
-        <button id="theme-toggle">Toggle Theme</button>
-        <section id="attribution">
             <h3>Icon Attributions</h3>
             <ul>
                 <li><a href="https://www.flaticon.com/free-icons/sql-file" title="SQL file icons">SQL file icons created by Muhammad_Usman - Flaticon</a></li>
