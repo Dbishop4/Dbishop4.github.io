@@ -1,11 +1,21 @@
 /* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
     line-height: 1.6;
     margin: 0;
+    padding: 20px;
     background: linear-gradient(to bottom, #e0eafc, #cfdef3);
     color: #333;
     transition: background 0.5s ease, color 0.5s ease;
+}
+/* List properties */
+ul {
+    list-style-position: inside; /* Keeps bullets aligned with text */
+    text-align: center; /* Centers the text */
+    display: inline-block; /* Allows the list to be centered */
+    padding-left: 20; /* Remove unnecessary padding */
+    margin-left: 0; /* Prevents extra spacing from browser default */
 }
 
 /* Updated Section Headers */
@@ -21,18 +31,18 @@ h1 {
 
 h2 {
     font-size: 2rem;
-    color: #4d39e8;
-    margin-bottom: 1rem;
+    color: #278e8e;
+    margin-bottom: .5rem;
     text-align: center;
     font-weight: bold;
 }
 
 h3 {
-    font-size: 1.5rem;
-    color: #666;
+    font-size: 1.75rem;
+    color: #262121;
     margin-bottom: 1rem;
     text-align: center;
-    font-weight: normal;
+    font-weight: bolder;
 }
 
 /* Hero Section */
@@ -170,7 +180,7 @@ h3 {
 
 /* Language Strengths Section */
 #language-strengths {
-    padding: 40px 20px;
+    padding: 0;
     background-color: #f9f9f9;
     text-align: center;
 }
@@ -328,8 +338,12 @@ nav {
 
 .case-study ul li ul {
     margin-top: 5px;
-    padding-left: 20px;
     list-style: disc;
+    list-style-position: inside; /* Keeps bullets aligned with text */
+    text-align: center; /* Centers the text */
+    display: inline-block; /* Allows the list to be centered */
+    padding-left: 20; /* Remove unnecessary padding */
+    margin-left: 0; /* Prevents extra spacing from browser default */
 }
 
 .case-study-link {
