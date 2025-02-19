@@ -1,5 +1,7 @@
 # 'pip install pandas' if Pandas is not installed #
+# pip install openpyxl' to install export to excel#
 import pandas as pd
+
 # Convert data into a structured dictionary with lists
 data = {
     "Company Name": [
